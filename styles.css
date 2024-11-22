@@ -1,0 +1,40 @@
+*{
+    overflow-x: hidden;
+}
+
+
+
+    
+
+.index_image{
+    width:100vw;
+    height:auto;
+    text-align:center;
+}
+img{
+    max-width:90vw;
+}
+
+
+p{
+    font-size: 18px;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    position:fixed;
+    top:0;
+    left:0;
+    max-width:100%;
+    width:100%;
+    font-size: 140%;
+    font-style:none;
+    background-color: blue ;
+}
+nav > a{
+    text-decoration: none;
+    color:white;
+}
+

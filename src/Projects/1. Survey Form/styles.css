@@ -1,0 +1,92 @@
+.main_div{
+    position:relative;
+    background-color:rgb(29, 34, 65, 0.8);
+    color:white;
+    margin:0px auto;
+    width:70%;
+    padding:30px 30px 30px 50px;
+    z-index: 2;
+    max-width:500px;
+  }
+  body{
+    background-size:cover;
+    background-position:center;
+    background-image:url(survey-form-background.jpeg);
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(66, 77, 149, 0.7);
+    z-index: 1;
+  }
+  header{
+    position:relative;
+    color:rgb(239, 239, 239);
+    z-index:2;
+    text-align:center; 
+    font-family:Helvetica;
+    margin-bottom:40px;
+    margin-top:70px;
+  }
+  #description{
+    font-size:1.2em;
+  }
+  
+  label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:6px;
+    font-size:1.2em;
+    opacity:0.92;
+    font-family:Sans-serif;
+  }
+  .label_inline{
+    display:inline;
+  }
+  .more_label-margin{
+    margin-top:40px;
+  }
+  
+  textarea{
+    display:block;
+    width:100%;
+    font-size:1.3em;
+  }
+  
+  
+  select{
+    color:rgb(90, 90, 90);
+    width:100%;
+    font-size:1.1em;
+    height:1.4em;
+  }
+  
+  input[type='text'], input[type='number'], input[type='email']{
+    width:100%;
+    color:rgb(90, 90, 90);
+    font-size:1.1em;
+    height:1.4em;
+  }
+  
+  input[type="checkbox"], input[type="radio"]{
+    transform: scale(1.5);
+    margin-right:10px;
+  }
+  input[type='radio']{
+    margin-bottom:10px;
+  }
+  
+  input[type="submit"]{
+    margin-top:30px;
+    background-color:rgb(75, 168, 78);
+    border: 1px solid rgb(75, 168, 78);
+    color:white;
+    width:100%;
+    height:2em;
+    font-size:1.1em;
+    border-radius:10px;
+  }
